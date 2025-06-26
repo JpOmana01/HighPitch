@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MusicQuestro: FLAPITCH</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">
+      <h2>FLAPITCH</h2>
+      <button class="gear">⚙️</button>
+    </div>
+    <canvas id="gameCanvas" width="300" height="400"></canvas>
+
+    <div class="note-buttons">
+      <button>DO</button>
+      <button>RE</button>
+      <button>MI</button>
+      <button>FA</button>
+      <button>SO</button>
+      <button>LA</button>
+      <button>TI</button>
+    </div>
+  </div>
+
+  <div class="game-over" id="gameOverScreen">
+    <p>🎵 Game Over</p>
+    <p id="finalScore"></p>
+    <button id="restartBtn">Restart</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
